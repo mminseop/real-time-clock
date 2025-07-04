@@ -4,3 +4,94 @@
   box-sizing: border-box;
   background-color: #333;
 }
+
+.container {
+    width: 50%;
+    height: 90vh;
+    background-color: #7394e9;
+    border-radius: 12px;
+    min-width: 320px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+}
+
+.header-wrap {
+    height: 10%;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.header-wrap .component-button {
+    height: 100%;
+    width: 100%;;
+    font-size: 1.3rem;
+    background-color: #555555;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 0;
+}
+
+.header-wrap .component-button:hover {
+    background-color: red;
+}
+
+.header-wrap .component-button.active {
+    background-color: red;
+    font-weight: 600;
+}
+
+/* timer-container 시작 */
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: #d1deec;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.timer-container .timer-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.timer-container .time-wrap {
+    display: flex;
+    gap: 15px;
+}
+
+.timer-container .time-wrap div {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 12px;
+}
+
+.timer-container .timer-stop-button {
+    width: 30%;
+    height: 50px;
+    font-size: 1.3rem;
+    background-color: #555555;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 0;
+}
+
+.timer-container .timer-stop-button:hover {
+    background-color: red;
+}
+
+.timer-container .timer-stop-button.active {
+    background-color: red;
+}
